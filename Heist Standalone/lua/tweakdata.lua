@@ -17,7 +17,7 @@ if not tweak_data.narrative.contacts.heist_standalone then
 	tweak_data.narrative.contacts.heist_standalone.assets_gui = Idstring("guis/mission_briefing/preload_contact_bain")
 end
 
-local _heistt = {"firestarter_2", "election_day_3", "hox_2"}
+local _heistt = {"firestarter_2", "election_day_3", "hox_2", "short1_stage1", "short1_stage2", "short2_stage1", "short2_stage2b"}
 
 for _, heist in pairs(_heistt) do
 	tweak_data.narrative.jobs[heist] = {}
